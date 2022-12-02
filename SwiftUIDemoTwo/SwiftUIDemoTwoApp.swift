@@ -11,7 +11,9 @@ import SwiftUI
 struct SwiftUIDemoTwoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            // ContentView(frameWidth: UIScreen.main.bounds.width, frameHeight: UIScreen.main.bounds.height)
+            FinalView()
         }
     }
 }
